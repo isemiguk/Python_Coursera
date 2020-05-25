@@ -13,3 +13,8 @@ speed = 100
 time = 8
 dist = speed * time
 print(dist)
+
+#удалить часть цифр с конца
+n = int(input())
+k = int(input())
+print(n // 10 ** k)
